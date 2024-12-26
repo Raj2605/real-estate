@@ -46,3 +46,38 @@
   gap: 20px;
   margin-top: 20px;
 }
+
+/* Mobile Screen */
+@media (max-width: 767px) {
+
+  .card {
+    width: 100%; 
+    margin: 10px 0; 
+  }
+
+  .property-cards {
+    justify-content: center;
+  }
+}
+
+/* Tablets (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .card {
+    width: 48%; 
+  }
+
+  .property-cards {
+    justify-content: space-between;
+  }
+}
+
+/* Desktop (1024px and above) */
+@media (min-width: 1024px) {
+  .card {
+    width: 30%;
+  }
+
+  .property-cards {
+    justify-content: space-between;
+  }
+}
