@@ -1,0 +1,18 @@
+.custom-navbar {
+  .custom-navbar {
+    background-color: rgba(0, 0, 0, 1.7); 
+  }
+}
+
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; 
+}
+
+.navbar-brand {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}

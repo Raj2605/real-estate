@@ -1,0 +1,13 @@
+:root {
+  --primary-bg-color: #FDFBD4;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  background-color: #FDFBD4;
+}
+
