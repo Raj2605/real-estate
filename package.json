@@ -10,7 +10,11 @@
     "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1"
   },
+  "devDependencies": {
+  "@babel/plugin-proposal-private-property-in-object": "^7.14.5"
+  },
   "scripts": {
+    "lint": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
